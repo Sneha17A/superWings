@@ -6,6 +6,9 @@
   list-style: none;
   box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
   font-family: montserrat;
 }
@@ -44,8 +47,8 @@ a.active,a:hover{
   background: rgb(26, 1, 128);
   transition: .5s;
 }
-.checkbtn{
-  font-size: 30px;
+.checkbtn {
+  /*font-size: 30px;*/
   color: white;
   float: right;
   line-height: 80px;
@@ -64,6 +67,7 @@ a.active,a:hover{
   nav ul li a{
     /*font-size: 16px;*/
     display: none;
+    text-decoration: none;
   }
 }
 @media (max-width: 858px){
@@ -80,21 +84,18 @@ a.active,a:hover{
     text-align: center;
     transition: all .5s;
   }
-  .navi{
-    margin-top: 300px;
-  }
   a:hover,a.active{
     background: none;
     color: #0082e6;
   }
   nav ul li a{
     color: white;
+    margin: 0 5px;
   }
   #check:checked ~ ul{
     left: 0;
   }
 }
-
 
 /*slideshow*/
 * {box-sizing: border-box}
