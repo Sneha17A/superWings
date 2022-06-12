@@ -116,7 +116,7 @@ a.active,a:hover{
 }
 @media (max-width: 450px){
     .mySlides img{
-        width: 45px;
+        width: 425px;
     }
 }
 
