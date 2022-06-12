@@ -79,9 +79,11 @@ a.active,a:hover{
     text-align: center;
     transition: all .5s;
   }
+  .navi{
+    margin-top: 180px;
+  }
   nav ul li{
     display: block;
-    margin: 50px 0;
     line-height: 30px;
   }
   nav ul li a{
@@ -344,25 +346,4 @@ a.active,a:hover{
 }
 .footer i{
     float: right;
-}
-.posterexp{
-    padding-left: 100px;
-    /*display: none;*/
-}
-.exp{
-    padding-left: 100px;
-    padding-bottom: 40px;
-    color: black;
-    padding-right: 100px;
-    /*display: inline;*/
-    /*display: none;*/
-}
-#eligible{
-    color: white;
-    padding-top: 30px;
-}
-@media (max-width: 800px){
-    .posterexp, .exp{
-        display: none;
-    }
 }
