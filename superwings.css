@@ -87,6 +87,9 @@ a.active,a:hover{
     background: none;
     color: #0082e6;
   }
+  nav ul li a{
+    color: white;
+  }
   #check:checked ~ ul{
     left: 0;
   }
