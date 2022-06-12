@@ -62,10 +62,11 @@ a.active,a:hover{
     padding-left: 50px;
   }
   nav ul li a{
-    font-size: 16px;
+    /*font-size: 16px;*/
+    display: none;
   }
 }
-/* @media (max-width: 858px){
+@media (max-width: 858px){
   .checkbtn{
     display: block;
   }
@@ -74,20 +75,13 @@ a.active,a:hover{
     width: 100%;
     height: 100vh;
     background: #2c3e50;
-    top: 80px;
+    top: 60px;
     left: -100%;
     text-align: center;
     transition: all .5s;
   }
   .navi{
-    margin-top: 180px;
-  }
-  nav ul li{
-    display: block;
-    line-height: 30px;
-  }
-  nav ul li a{
-    font-size: 20px;
+    margin-top: 400px;
   }
   a:hover,a.active{
     background: none;
@@ -97,7 +91,7 @@ a.active,a:hover{
     left: 0;
   }
 }
- */
+
 
 /*slideshow*/
 * {box-sizing: border-box}
