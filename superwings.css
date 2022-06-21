@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Russo+One&family=Yellowtail&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Russo+One&family=Yellowtail&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Russo+One&family=Stoke:wght@300&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -289,7 +290,8 @@ a.active,a:hover{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
-    font-family: 'Permanent Marker', cursive;
+    /*font-family: 'Permanent Marker', cursive;*/
+    font-family: 'Stoke', serif;
 }
 .org-name{
     text-align: center;
@@ -297,19 +299,30 @@ a.active,a:hover{
     padding-bottom: 5px;
     font-family: 'Russo One', sans-serif;
 }
+.org-exp1{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+}
 .org-exp{
     text-align: center;
     padding: 30px;
     align-items: center;
 }
 .img{
-    align-items: center;
+    /*align-items: center;*/
     padding-top: 30px;
+    padding-left: 100px;
+    width: 250px;
+    height: 150px;
 }
 .img-exp{
-    font-family: 'Yellowtail', cursive;
-    padding: 30px;
-    font-size: 30px;
+    /*font-family: 'Yellowtail', cursive;*/
+    font-family: 'Stoke', serif;
+    padding: 20px;
+    font-size: 20px;
 }
 .poster{
     height: 500px;
@@ -322,6 +335,11 @@ a.active,a:hover{
     }
     .img{
         width: 300px;
+    }
+    .org-exp1{
+        margin: 0;
+        text-align: center;
+        padding: 0;
     }
 }
 
@@ -344,4 +362,9 @@ a.active,a:hover{
 }
 .footer i{
     float: right;
+}
+@media (max-width: 450px){
+    .footer i{
+        float: left;
+    }
 }
